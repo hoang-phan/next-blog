@@ -1,0 +1,26 @@
+.container {
+  
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.postTitle {
+  font-weight: bold;
+}
+
+.postContent {
+  margin: 1em 0;
+}
+
+.postAuthor {
+  font-style: italic;
+}
